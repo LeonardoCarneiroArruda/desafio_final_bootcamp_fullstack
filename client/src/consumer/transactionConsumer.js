@@ -2,7 +2,7 @@ import axios from 'axios';
 
 //Define a URL base da origem para consumo do servico
 const http = axios.create({
-  baseURL: 'http://localhost:3001',
+  baseURL: 'https://leonardocarneiro-desafio-final.herokuapp.com/',
   headers: {
     'Content-type': 'application/json',
   },
