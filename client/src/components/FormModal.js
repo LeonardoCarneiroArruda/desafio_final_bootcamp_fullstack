@@ -112,6 +112,7 @@ export default function FormModal(props) {
 
 
 const customStyles = {
+    overlay: {zIndex: 1},
     content : {
       top                   : '50%',
       left                  : '50%',
